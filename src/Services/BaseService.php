@@ -6,7 +6,7 @@
  * Time: 下午4:44
  */
 
-namespace SRpc\Services;
+namespace Srpc\Services;
 
 class BaseService
 {

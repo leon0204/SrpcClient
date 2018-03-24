@@ -13,8 +13,8 @@ return [
 
     // Models alias map to class.
     'Services' => [
-        'UploadService' => SRpc\Services\UploadService::class,
-        'UserService' => SRpc\Services\UserService::class,
+        'UploadService' => Srpc\Services\UploadService::class,
+        'UserService' => Srpc\Services\UserService::class,
     ]
 ];
 

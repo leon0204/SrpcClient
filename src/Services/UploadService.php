@@ -5,7 +5,7 @@
  * Date: 2018/3/23
  * Time: 下午4:35
  */
-namespace SRpc\Services;
+namespace Srpc\Services;
 
 class UploadService  extends BaseService
 {

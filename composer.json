@@ -1,8 +1,5 @@
 {
-    "name": "srpc/srpc-client",
-    "description": "srpc framework",
-    "type": "library",
-    "license": "MIT",
+    "name": "srpc/srpc",
     "authors": [
         {
             "name": "leon0204",
@@ -10,10 +7,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=5.5.0"
+    },
     "autoload": {
         "psr-4": {
-            "srpc-client\\" : "src/"
+            "Srpc\\" : "src/"
         }
     }
 }

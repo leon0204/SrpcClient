@@ -5,7 +5,7 @@
  * Date: 2018/3/23
  * Time: 下午5:24
  */
-namespace SRpc\Services;
+namespace Srpc\Services;
 
 class UserService  extends BaseService
 {

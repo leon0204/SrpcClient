@@ -1,14 +1,14 @@
 <?php
 
-namespace SRpc;
+namespace Srpc;
 
-use SRpc\Utils\Config as SConfig;
+use Srpc\Utils\Config as SConfig;
 
 /**
  * Class SRpc
  * @package SRpc
  */
-class SRpc
+class Srpc
 {
     /**
      * @var
