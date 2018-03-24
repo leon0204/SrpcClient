@@ -1,0 +1,14 @@
+{
+    "name": "srpc/srpc-client",
+    "description": "srpc framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leon0204",
+            "email": "leon0204yo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
