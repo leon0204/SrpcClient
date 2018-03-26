@@ -62,6 +62,8 @@ class Srpc
         $models = SConfig::get('Services');
         if (array_key_exists($modelAlias, $models)) {
             $model = $models[$modelAlias];
+        }else{
+            trigger_error("Get Model unexcept, This action will be report to admin.", E_USER_ERROR);
         }
         $model = $model::getInstance($modelAlias);
         return $model;
